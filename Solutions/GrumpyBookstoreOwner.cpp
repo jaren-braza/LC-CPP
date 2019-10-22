@@ -1,4 +1,5 @@
 // 1052 - Grumpy Bookstore Owner
+// https://leetcode.com/problems/grumpy-bookstore-owner/
 
 // We will track two main fields:
 // (1) The amount of people satisfied on non-grumpy days.
@@ -8,7 +9,7 @@
 // This is done for each index 'i' greater than or equal to 'X' by:
 // - Tracking the customer as if the bookstore owner has been non-grumpy today.
 // - Removing any customers that would be satisfied at 'i' - 'X'.
-
+//
 // If 'X' = 3, 'i' = 6, the owner is always grumpy, and the customers are [1 0 1 2 1 1 7 5]:
 // - We would add 7 and remove 1 to field (2).
 // - [1 0 1 2 1 1 7 5]
