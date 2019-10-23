@@ -25,11 +25,8 @@ public:
                 
                 L++;
             }
-            
-            if (R - L + 1 > longest)
-                longest = R - L + 1;
         }
         
-        return longest;
+        return A.size() - L;
     }
 };
