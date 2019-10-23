@@ -16,6 +16,7 @@
 //          ^     ^ 
 // - For the problem, we would look at [1 0 1], [0 1 2], [1 2 1], [2 1 1], [1 1 7], and [1 7 5].
 // - We would choose the best "Sliding Window", which is [1 7 5] = 13 total satisfied customers.
+// - Note that if the owner is not grumpy for some i, it would essentially be 0 at i for the window.
 
 class Solution {
     const int IS_NOT_GRUMPY = 0;
