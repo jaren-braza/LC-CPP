@@ -11,7 +11,6 @@ class Solution {
 public:
     int longestOnes(vector<int>& A, int K) {
         int numberOfZeroes = 0;
-        int longest = 0;
         int L = 0;
         
         for (int R = 0; R < A.size(); R++) {
